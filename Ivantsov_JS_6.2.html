@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivantsov_JS_6.2</title>
+    <script src="scripts/script.js"></script>
+</head>
+
+<body>
+
+    <label for="male"><input id="male" type="radio" name="pol" value="male" checked>Мужской</label><br>
+    <label for="female"><input id="female" type="radio" name="pol" value="female">Женский</label><br>
+    <label for="unknown"><input id="unknown" type="radio" name="pol" value="unknown">Не
+        указан</label><br>
+
+    <script>
+        // Задаем таймер, чтобы можно было выбрать вариант и проверить, что формируется корректный объект
+        let timer = setTimeout(getForm, 3000);
+    </script>
+</body>
+
+</html>
